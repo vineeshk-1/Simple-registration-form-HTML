@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration Form</title>
+</head>
+<body>
+
+	<h1><center>REGISTRATION FORM</center></h1>
+	<form>
+	
+		
+		<table cellspacing="15" align="center">
+			<tr>
+				<td>
+				Full Name:
+				</td>
+				<td>
+					<input type="text" placeholder="Full name" minlength="5" autofocus required>
+					
+				</td>
+			</tr>
+			<tr>
+				<td>
+					Email Id:
+				</td>		
+				<td>
+					<input type="email" placeholder="Email">
+				</td>
+			</tr>	
+			<tr>
+				<td>
+					Password:
+				</td>		
+				<td>
+					<input type="password" placeholder="password" minlength=4 maxlength="9" required>
+				</td>
+			</tr>				
+			<tr>
+				<td>
+					Date of Birth:
+				</td>		
+				<td>
+					<input type="date">
+				</td>
+			</tr>	
+			<tr>
+				<td>
+					Country:
+				</td>		
+				<td>
+					<select name="country" id="country" size="1">
+					<option value="iND">INDIA</option>
+					<option value="AUS">AUSTRALIA</option>
+					<option value="USA">UNITED STATES OF AMERICA</option>
+					<option value="JAP">JAPAN</option>
+					<option value="UK">UNITED KINGDOM</option>
+					<option value="CAN">CANADA</option>
+					</select>
+				</td>
+			</tr>	
+			<tr>
+                		<td>
+                   			 Gender:
+               			</td>
+                		<td>
+                  			<input type="radio" name="gender">Male
+                    			<input type="radio" name="gender">Female
+                  			<input type="radio" name="gender">Others
+				</td>
+            		</tr>
+			<tr>
+				<td>
+					Meals:
+				</td>		
+				<td>
+					<input type="checkbox"/>Low calorie
+				</td>
+			</tr>
+			<tr>
+				<td>
+					Preference:
+				</td>
+				<td>
+					<input type="checkbox"/>Low salt
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<input type="checkbox"/>I accept terms
+				</td>
+			</tr>	
+			<tr>
+				<td rowspan="5">
+					<input type="submit" value="Register" style="background-color:#0000FF;">
+					<input type="button" onclick="alert('Button clicked');" value="Click Me!"/>
+				</td>
+			</tr>
+		</table>
+	</form>
+	
+</body>
+
+</html>	
